@@ -1,0 +1,12 @@
+mat-toolbar {
+    margin-bottom: 20px;
+    background-color: #6d6875;
+    color: #ffcdb2;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icon {
+    flex: content;
+    color: #fff;
+}

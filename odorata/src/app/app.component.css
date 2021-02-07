@@ -1,0 +1,32 @@
+:root {
+    --light: #ffcdb2;
+    --med-light: #ffb4a2;
+    --med: #e5989b;
+    --med-dark: #b5838d;
+    --dark: #6d6875;
+}
+
+.content-wrapper {
+    background-color: var(--dark);
+}
+
+mat-toolbar {
+    margin-bottom: 20px;
+    background-color: #6d6875;
+    color: #ffcdb2;
+    display: flex;
+    justify-content: center;
+}
+
+mat-toolbar > mat-icon {
+    float: left;
+    justify-items: left;
+}
+
+mat-toolbar > span {
+    margin: 0 0 0 20px;
+}
+
+body {
+    background-color: var(--light);
+}
